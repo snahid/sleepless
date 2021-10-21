@@ -81,9 +81,12 @@ body {
     margin-right: auto;
     margin-bottom: 30px;
     font-weight: 400;
+    padding: 0 15px;
     @media(max-width: 767px){
       font-size: 30px;
-      padding: 0 15px;
+    }
+    @media(max-width: 500px){
+      font-size: 24px;
     }
   }
   p{

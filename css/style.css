@@ -75,11 +75,16 @@ body {
   margin-right: auto;
   margin-bottom: 30px;
   font-weight: 400;
+  padding: 0 15px;
 }
 @media (max-width: 767px) {
   .title-text h2 {
     font-size: 30px;
-    padding: 0 15px;
+  }
+}
+@media (max-width: 500px) {
+  .title-text h2 {
+    font-size: 24px;
   }
 }
 .title-text p {
