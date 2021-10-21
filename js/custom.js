@@ -490,6 +490,9 @@
 // //   buttons: ["zoom", "slideShow", "thumbs", "close", "fullScreen"],
 // // });
 
+ // AOS Instance //
+ AOS.init();
+
 var prevIcon = '<i class="fa fa-long-arrow-left" aria-hidden="true"></i>';
 var nextIcon = '<i class="fa fa-long-arrow-right" aria-hidden="true"></i>';
 
